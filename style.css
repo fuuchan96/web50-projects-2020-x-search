@@ -1,0 +1,93 @@
+#links{
+    text-align: end;
+    margin: 30px;
+}
+
+a {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-decoration-line: none;
+    margin: 8px;
+}
+
+a:hover{
+    background-color: lightgray;
+    text-decoration-line: underline;
+}
+
+#google{
+    width: 500px;
+    height: 250px;
+}
+
+#inputs{
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.bar{
+    border-radius: 6px;
+    width: 500px;
+    height: 30px;
+
+}
+
+.adbar{
+    width: 600px;
+    height: 20px;
+}
+.button{
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+p {
+    font-family: arial,sans-serif;
+    font-size: 20px;
+}
+
+.ad{
+    font-size: 14px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    line-height: 16px;
+    
+}
+
+.button:hover{
+    color: black;
+    border-color: gray;
+}
+
+#advanced{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn{
+    height: 30px;
+    width: 120px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.find{
+    display: flex;
+}
